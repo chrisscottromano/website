@@ -14,7 +14,7 @@ let circles = document.querySelector("#circles");
 let a = document.querySelector("#audio");
 let son = document.querySelector("#son");
 let soff = document.querySelector("#soff");
-let txt = document.querySelector("#txt");
+// let txt = document.querySelector("#txt");
 
 
 /*******************/
@@ -35,11 +35,11 @@ let radioPlaying = () => {
 
     son.classList.toggle("s");
     soff.classList.toggle("s");
-    txt.classList.toggle("s");
+    // txt.classList.toggle("s");
 }
 
 /*******************/
 buttonCta.addEventListener("click", radioPlaying)
 soff.addEventListener("click", radioPlaying)
 son.addEventListener("click", radioPlaying)
-txt.addEventListener("click", radioPlaying)
+// txt.addEventListener("click", radioPlaying)
