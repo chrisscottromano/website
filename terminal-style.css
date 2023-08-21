@@ -3,16 +3,8 @@
   src: url(Flexi_IBM_VGA_True.ttf);
 }
 
-@font-face {
-  font-family: Crimson Pro;
-  src: url(CrimsonPro-VariableFont_wght.ttf);
-}
-
-
-
 :root {
-  --2: lightgreen;
-  --1: black;
+  --1: lightgreen;
 }
 
 p {
@@ -44,7 +36,7 @@ a:hover {
 }
 
 h1 {
-  font-family: "Crimson Pro", serif;
+  font-family: VGA;
   font-size: 4em;
   margin: 0;
 }
@@ -62,7 +54,7 @@ h2 {
 .tabs {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid var(--1);
+  border: 1px solid var(--1);
 }
 
 .tabs label {
@@ -71,10 +63,9 @@ h2 {
   padding: 0.75rem 2rem;
   margin-right: 0.2rem;
   cursor: pointer;
-  /* background: #000; */
-  background: #fff;
-  /* font-size: 2.1rem; */
-  font-size: 1.95rem;
+  background: #000;
+  /* font-weight: bold; */
+  font-size: 2.1rem;
   transition: background ease 0.2s;
 }
 
@@ -88,8 +79,7 @@ h2 {
   width: 100%;
   display: none;
   padding: 2rem;
-  /* background: #000; */
-  background: #fff;
+  background: #000;
   font-size: 1.75rem;
   line-height: 1.15;
   height: fit-content;
@@ -101,8 +91,7 @@ h2 {
 
 .tabs input[type=radio]:checked+label {
   background: var(--1);
-  /* color: #000; */
-  color: #fff;
+  color: #000;
 }
 
 .tabs input[type=radio]:checked+label+.tab {
@@ -135,11 +124,9 @@ h2 {
  * Generic Styling
 */
 body {
-  /* background-color: #000; */
-  background-color: #fff;
+  background-color: #000;
   color: var(--1);
-  /* font-family: VGA; */
-  font-family: "Crimson Pro", serif;
+  font-family: VGA;
   box-sizing: border-box;
   margin: 0 auto;
 }
@@ -156,9 +143,8 @@ body {
 }
 
 .screen {
-  /* background-color: #000; */
-  background-color: #fff;
-  font-family: "Crimson Pro", serif;
+  background-color: #000;
+  font-family: VGA;
   box-sizing: border-box;
   margin-left: 5%;
   margin-right: 5%;
@@ -1150,8 +1136,7 @@ h4 {
 
 .github-pinner.gp-repo {
   width: 30%;
-  /* font-family: VGA; */
-  font-family: "Crimson Pro", serif;
+  font-family: VGA;
   line-height: 1;
   margin: 15px;
 }
@@ -1176,7 +1161,7 @@ h4 {
 
 .github-pinner #gp-container-repo .gp-desc {
   margin-top: 5px;
-  color: black !important;
+  color: antiquewhite !important;
   font-size: 1.25rem !important;
 }
 
@@ -1185,7 +1170,7 @@ h4 {
 
 .github-pinner #gp-container-repo #gp-stats .gp-stat {
   text-decoration: none;
-  color: black !important;
+  color: antiquewhite !important;
   font-size: 12px !important;
   display: inline-block;
   margin: 0 0;
