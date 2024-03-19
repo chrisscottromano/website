@@ -119,9 +119,26 @@ h2 {
   .tabs label {
     width: 100%;
     margin-right: 0;
-    margin-top: 0.2rem;
+    margin-top: 0;
     font-size: 1rem;
   }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
 
   /* .tabs .tab {
     min-height: 100vh;
