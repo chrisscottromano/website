@@ -21,11 +21,9 @@
       <input type="radio" name="tabs" id="tabone" checked="checked">
       <label for="tabone">about</label>
       <div class="tab">
-        <figure>
-        <p style="float: right; margin-right:1em">
-          <img src="./assets/img/meandkellan.png" style="width: 175px;border: 1px solid var(--1)">
+        <p style="float: right; margin-right:2em">
+          <img src="./assets/img/meandkellan.png" style="width: 175px;border: 0px solid var(--1)">
         </p>
-      </figure>
         <h2>Work</h2>
         <p>
           I am a researcher working on wearable sensing for behavior medicine at the
@@ -35,15 +33,13 @@
           <br />
           I occasionally consult on mobile health technology for <a href="https://www.behavioralize.com/">Behavioralize
             LLC</a>.
+          <br />
+          I work with <a href="https://heyairo.com/">AIRO</a>, a personal AI startup that was featured at <a
+            href="https://www.youtube.com/watch?v=TVRyPqKZEmk">CES 2024</a>.
+          <br />
+          I write satire and humor pieces for various publications (see humor tab).
         </p>
         <br />
-        <!-- <h2>School</h2>
-        <p>
-          I attended Loyola University Chicago, where I served a term as student
-          council president, published poems in the campus fine arts magazine, worked off-campus as an audio engineer,
-          studied abroad in Madrid, and graduated with a BS in Psychology.
-        </p>
-        <br /> -->
         <h2>Life</h2>
         <p>
           I have lived in Chicago, IL since 2015. I like writing, making music, and building offbeat things.
@@ -53,38 +49,7 @@
       <input type="radio" name="tabs" id="tabtwo">
       <label for="tabtwo">research</label>
       <div class="tab">
-        <!-- <h2>Interests</h2>
-        <p>
-          I am interested in developing body sensor networks that infer behavioral and psychological constructs from
-          biophysical processes. For instance, Dr. Mahdi Pedram and I are designing a wearable keyword spotter
-          that tallies <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6376956/">absolutist
-            words</a> and total words spoken by the wearer, returning the ratio between them. This ratio is greater in
-          patients with affective disorders. Thus, our device could serve as a
-          diagnostic tool or as a way to guage the efficacy of an ongoing psychiatric treatment.
-          <br />
-          <br />
-          Another example is the <a
-            href="https://drive.google.com/file/d/18zdDNFjXy70_pm-3qDj3ilqNWsXNK8Zs/view?usp=sharing">Adjustable
-            Frequency Stethoscope</a>, a module I designed to convert any stethoscope from analog to digital audio,
-          allowing filtering of frequency ranges that are irrelevant to a given organ sound. My goal with this system is
-          to level the educational playing field for medical and nursing students with auditory processing disorder,
-          which has a prevalence of ~10% in US adults, varying only minimally across age groups. The linked document is
-          my working paper on the system, which I am looking to improve upon by soliciting and incorporating feedback
-          from colleagues in both engineering and cognitive psychology.
-          <br />
-          <br />
-          I am also very interested in cognitive and social psychology, particularly concerning communication, group
-          dynamics, and shared reality. My <a
-            href="https://drive.google.com/file/d/1hOEmxUojxixiWivEXH-udIE0MNXMQH0x/view?usp=drive_link">undergraduate
-            thesis</a> was a study of how shared sensory experiences are
-          modified by the relationship between the sharers. I am also running a series of experiments with <a
-            href="https://www.kevinrcarriere.com/">Dr. Kevin Carriere</a> exploring the dynamics of blaming behaviors at
-          the group-level in times of widespread crisis.
-        </p>
-        <br /> -->
-
         <h2>Publications</h2>
-
         <div class="paper">
           <p>
             <a href="https://dl.acm.org/doi/pdf/10.1145/3544549.3573841">Experience:
@@ -395,7 +360,9 @@
           <source src="assets/mp3/callin.mp3" type="audio/mpeg">
         </audio>
         <div class="t" id="txt">
-          <p style="margin-top:2rem;">"Atka" is an instrumental music project named after the <a href="https://www.history.navy.mil/research/histories/ship-histories/danfs/a/atka.html">AGB-3 Icebreaker</a>.
+          <p style="margin-top:2rem;">"Atka" is an instrumental music project named after the <a
+              href="https://www.history.navy.mil/research/histories/ship-histories/danfs/a/atka.html">AGB-3
+              Icebreaker</a>.
           </p>
         </div>
         <br />
@@ -406,124 +373,14 @@
           <a href="https://soundcloud.com/user-761021381-323138458" title="Atka!" target="_blank"
             style="color: #cccccc; text-decoration: none;">Atka!</a> · <a
             href="https://soundcloud.com/user-761021381-323138458/sets/vena-cavatica" title="Vena Cavatica"
-            target="_blank" style="color: #cccccc; text-decoration: none;">Vena Cavatica</a></div>
-        <!-- <div class="player">
-          <div class="shadows">
-            <div class="shadow-1" id="shadow"></div>
-            <div class="shadow-2"></div>
-          </div>
-          <div class="radio" id="radio">
-            <div class="bf">
-              <div class="bf__front face"> </div>
-              <div class="bf__back face"> </div>
-              <div class="bf__right face"> </div>
-              <div class="bf__left face"> </div>
-              <div class="bf__top face"> </div>
-              <div class="bf__bottom face"> </div>
-            </div>
-            <div class="ffa">
-              <div class="ffa__front face">
-                <div class="ffa__front-circles" id="circles"></div>
-              </div>
-              <div class="ffa__right face">
-                <div class="range">
-                  <div class="range__front face"> </div>
-                  <div class="range__back face"> </div>
-                  <div class="range__right face"> </div>
-                  <div class="range__left face"> </div>
-                  <div class="range__top face"> </div>
-                  <div class="range__bottom face"></div>
-                </div>
-              </div>
-              <div class="ffa__left face"> </div>
-              <div class="ffa__top face"> </div>
-              <div class="ffa__bottom face"> </div>
-            </div>
-            <div class="ffb">
-              <div class="ffb__front face"> </div>
-              <div class="ffb__right face"> </div>
-              <div class="ffb__left face"> </div>
-              <div class="ffb__top face"> </div>
-              <div class="ffb__bottom face"> </div>
-            </div>
-            <div class="ffc">
-              <div class="ffc__front face"> </div>
-              <div class="ffc__right face"> </div>
-              <div class="ffc__left face"> </div>
-              <div class="ffc__top face"> </div>
-              <div class="ffc__bottom face"> </div>
-            </div>
-            <div class="ffd">
-              <div class="ffd__front face"> </div>
-              <div class="ffd__right face"> </div>
-              <div class="ffd__left face"> </div>
-              <div class="ffd__top face"> </div>
-              <div class="ffd__bottom face"></div>
-            </div>
-            <div class="buttons">
-              <div class="button">
-                <div class="button__front face"> </div>
-                <div class="button__back face"> </div>
-                <div class="button__right face"> </div>
-                <div class="button__left face"> </div>
-                <div class="button__top face"> </div>
-                <div class="button__bottom face"></div>
-              </div>
-              <div class="button">
-                <div class="button__front face"> </div>
-                <div class="button__back face"> </div>
-                <div class="button__right face"> </div>
-                <div class="button__left face"> </div>
-                <div class="button__top face"> </div>
-                <div class="button__bottom face"></div>
-              </div>
-              <div class="button">
-                <div class="button__front face"> </div>
-                <div class="button__back face"> </div>
-                <div class="button__right face"> </div>
-                <div class="button__left face"> </div>
-                <div class="button__top face"> </div>
-                <div class="button__bottom face"></div>
-              </div>
-              <div class="button button--cta" id="button-cta">
-                <div class="button__front face"> </div>
-                <div class="button__back face"> </div>
-                <div class="button__right face"> </div>
-                <div class="button__left face"> </div>
-                <div class="button__top face"> </div>
-                <div class="button__bottom face"></div>
-              </div>
-            </div>
-            <div class="cover" id="cover">
-              <div class="cover-b">
-                <div class="cover-b__front face"> </div>
-                <div class="cover-b__right face"> </div>
-                <div class="cover-b__left face"> </div>
-                <div class="cover-b__top face"> </div>
-                <div class="cover-b__bottom face"></div>
-              </div>
-            </div>
-            <div class="cassete">
-              <div class="cassete__front face">
-                <div class="cassete__line"></div>
-              </div>
-              <div class="cassete__back face"> </div>
-              <div class="cassete__right face"> </div>
-              <div class="cassete__left face"> </div>
-              <div class="cassete__top face"> </div>
-              <div class="cassete__bottom face"></div>
-            </div>
-          </div>
-          <script src="./scripts/script.js"></script>
-        </div> -->
-        <!-- <p style="text-align: center;font-size: 14pt">"Callin" — Chris Romano (2022)</p> -->
+            target="_blank" style="color: #cccccc; text-decoration: none;">Vena Cavatica</a>
+        </div>
       </div>
 
       <input type="radio" name="tabs" id="tabseven">
       <label for="tabseven">poetry</label>
       <div class="tab">
         <h2>Diminuendo & Cadence</h2>
-        <!-- <p style="margin-bottom: 15px;">The fine arts magazine of Loyola University Chicago.</p> -->
         <p><a href="https://drive.google.com/file/d/1xSOKZ3mo323XBfpL6G-ndwTHQOj8yEkK/view?usp=sharing"
             target="_blank">Travel</a>&nbsp;(page 6)</p>
         <p><a href="https://drive.google.com/file/d/1bK21mPtTmIB05Ce7SlcMa14iWb_ysQLd/view?usp=sharing"
@@ -558,8 +415,6 @@
       </div>
     </div>
     <!-- partial -->
-    <script src="./scripts/script.js"></script>
-
 </body>
 
 </html>
