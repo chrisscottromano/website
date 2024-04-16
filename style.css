@@ -35,6 +35,11 @@ a:hover {
   color: cornflowerblue;
 }
 
+img {
+  width: 275px;
+  border: 0px solid var(--1);
+}
+
 .container {
   display: grid;
   margin-left: 5%;
@@ -129,6 +134,10 @@ h2 {
     margin-top: 0;
     font-size: 3rem;
     border: 1px solid var(--1);
+  }
+  img {
+    width: 150px;
+    border: 0px solid var(--1);
   }
 
   p {
